@@ -25,8 +25,8 @@ function registrar(){
     //utilizo la funcion de JQuery $.ajax para hacer un llamado asincrono
     //a un ws
     $.ajax({
-        //url del servicio
-        url: "http://localhost:8080/api/user/new",
+        //url del servicio actualizado con la ip de la instancia
+        url: "http://150.136.139.144:8080/api/user/new",
         
         //envio datos capturados por el usuario a la peticion
         data: datosPeticion,
